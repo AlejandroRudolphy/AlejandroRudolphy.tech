@@ -38,9 +38,6 @@ steps:
 
     displayName: 'Clone github to wiki'
 
-  displayName: 'clone from github to wiki'
-
-
 - task: replacetokens@3
   inputs:
     rootDirectory: '$(Build.SourcesDirectory)'
