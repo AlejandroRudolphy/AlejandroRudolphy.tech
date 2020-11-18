@@ -36,7 +36,7 @@ steps:
     echo "Ubicando toda la web mezclada en carpeta web"
     mv ./../web/* ./web
 
-    displayName: 'Clone github to wiki'
+  displayName: 'Clone github to wiki'
 
 - task: replacetokens@3
   inputs:
