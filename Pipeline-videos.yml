@@ -21,7 +21,7 @@ steps:
 
 - script: |
     echo "Clonando sitio web"
-    git clone https://github.com/AlejandroRudolphy/paginaweb.git web   
+    git clone git@github.com:AlejandroRudolphy/paginaweb.git web   
     
     echo "Creando carpeta en un nivel más atrás"
     mkdir ./../web
@@ -33,7 +33,7 @@ steps:
 
     mkdir ./* ./../web/content
     mkdir web
-    echo "Uicando toda la web mezclada en carpeta web"
+    echo "Ubicando toda la web mezclada en carpeta web"
     mv ./../web/* ./web
 
     displayName: 'Clone github to wiki'
