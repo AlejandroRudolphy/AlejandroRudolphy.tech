@@ -21,7 +21,7 @@ steps:
 
 - script: |
     echo "Clonando sitio web"
-    git clone git@github.com:AlejandroRudolphy/paginaweb.git web   
+    git clone https://github.com/AlejandroRudolphy/paginaweb.git web   
     
     echo "Creando carpeta en un nivel más atrás"
     mkdir ./../web
